@@ -1,7 +1,4 @@
-mod cli;
-mod model;
-mod service;
-mod scraping;
+use scraping::cli;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
